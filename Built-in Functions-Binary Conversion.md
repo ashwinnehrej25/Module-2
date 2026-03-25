@@ -17,3 +17,4 @@ print(bin(a)
 <img width="684" height="302" alt="530367670-4439c7e4-50c6-420f-8767-95652c6ca838" src="https://github.com/user-attachments/assets/5dd7d87e-20f8-4a69-a732-eebb483a49b2" />
 
 ## Result
+Thus, the program has been successfully executed .
