@@ -27,9 +27,26 @@ To write a Python program that generates **Pascal's Triangle** using numbers. Th
 ---
 
 ## 🧪 Program
-Add Code Here
+```
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
 
-## Sample Output
+def combination(n, k):
+    return factorial(n) // (factorial(k) * factorial(n - k))
+
+num_rows = int(input("Enter number of rows: "))
+
+for i in range(num_rows):
+    print(' ' * (num_rows - i - 1), end='')
+    for j in range(i + 1):
+        print(combination(i, j), end=' ')
+    print()
+```
+## Sample output
+<img width="726" height="374" alt="530377001-47c00c02-b71d-48fd-ac1d-71c375d0ec6a" src="https://github.com/user-attachments/assets/bd071e25-2fb5-49f8-ad5d-a7bf162d1d4f" />
+
 
 ## Result
 
